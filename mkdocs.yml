@@ -2,7 +2,14 @@ site_name: Irezia - Wiki
 theme:
   name: material
   palette:
-    scheme: slate
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: light mode (puke)
 markdown_extensions:
   - admonition
   - abbr
