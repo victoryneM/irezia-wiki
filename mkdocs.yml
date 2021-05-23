@@ -1,6 +1,8 @@
 site_name: Irezia - Wiki
 theme:
   name: material
+  palette:
+    scheme: slate
 markdown_extensions:
   - admonition
   - abbr
