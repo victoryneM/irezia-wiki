@@ -4,7 +4,7 @@ theme:
   features:
     - navigation.indexes
     - navigation.instant
-    - navigation.sections
+    - navigation.tabs
     - navigation.expand
     - navigation.top
     - header.autohide
@@ -35,8 +35,14 @@ plugins:
 
 nav:
   - Home: index.md
-  - Jobs: jobs.md
+  - 'Jobs':
+      Mineur: Jobs/Mineur.md
+      Pecheur: Jobs/Pecheur.md
+      Agriculteur: Jobs/Agriculteur.md
+      Bûcheron: jobs/Bucheron.md
+      Pêcheur: jobs/Pecheur.md
   - Collections: collections.md
   - Donjons: donjons.md
   - Quêtes: quetes.md
   - Villes: villes.md
+copyright: Copyright Irezia 2020 - 2021
