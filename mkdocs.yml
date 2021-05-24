@@ -2,6 +2,7 @@ site_name: Irezia - Wiki
 theme:
   name: material
   features:
+    - navigation.indexes
     - navigation.instant
     - navigation.sections
     - navigation.expand
@@ -23,6 +24,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - toc:
+      permalink: true
+      baselevel: 2
+      separator: "_"
+      slugify: !!python/name:pymdownx.slugs.uslugify
 plugins:
   - git-revision-date-localized
   - search
@@ -30,3 +36,7 @@ plugins:
 nav:
   - Home: index.md
   - Jobs: jobs.md
+  - Collections: collections.md
+  - Donjons: donjons.md
+  - Quêtes: quetes.md
+  - Villes: villes.md
