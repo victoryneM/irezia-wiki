@@ -10,6 +10,16 @@ Lol, xd, un deux  trois, six, neuf, quatre, betteraves, patates et canne à sucr
 > Cool, banana, fanta et coca
 
 
+![aaaaaa](https://dummyimage.com/64x64/eee/aaa){ loading=lazy display=block} Allo
+![ffffff](https://dummyimage.com/128x128/eee/aaa){ loading=lazy }
+![ffffff](https://dummyimage.com/256x256/eee/aaa){ loading=lazy }
+![ffffff](https://dummyimage.com/512x512/eee/aaa){ loading=lazy }
+![ffffff](https://dummyimage.com/1024x1024/eee/aaa){ loading=lazy }
+
+
+
+![dsdsdsds](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif){ width=250 height=150 loading=lazy }
+
 ++ctrl+alt+delete++
 
 
@@ -31,10 +41,12 @@ Lol, xd, un deux  trois, six, neuf, quatre, betteraves, patates et canne à sucr
 ## loul
 === "Loule"
     | Method      | Description                          |
-    | ----------- | ------------------------------------ |
+    | :---------: | :----------------------------------: |
     | `GET`       | :material-check:     Fetch resource  |
     | `PUT`       | :material-check-all: Update resource |
     | `DELETE`    | :material-close:     Delete resource |
+
+
 
 
 
@@ -73,3 +85,17 @@ fl f
 [=65%]{: .thin}
 [=85%]{: .thin}
 [=100%]{: .thin}
+
+
+Task List
+
+- [X] item 1
+    * [X] item A
+    * [ ] item B
+        more text
+        + [x] item a
+        + [ ] item b
+        + [x] item c
+    * [X] item C
+- [ ] item 2
+- [ ] item 3
