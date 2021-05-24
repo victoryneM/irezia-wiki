@@ -6,6 +6,7 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - header.autohide
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -18,11 +19,11 @@ markdown_extensions:
   - abbr
   - attr_list
   - pymdownx.tabbed
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 plugins:
-  - git-revision-date-localized
   - git-revision-date-localized
   - search
 
