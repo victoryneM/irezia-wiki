@@ -26,9 +26,6 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
-      baselevel: 2
-      separator: "_"
-      slugify: !!python/name:pymdownx.slugs.uslugify
 plugins:
   - git-revision-date-localized
   - search
@@ -39,8 +36,9 @@ nav:
       Mineur: Jobs/Mineur.md
       Pecheur: Jobs/Pecheur.md
       Agriculteur: Jobs/Agriculteur.md
-      Bûcheron: jobs/Bucheron.md
-      Pêcheur: jobs/Pecheur.md
+      Bûcheron: Jobs/Bucheron.md
+      Pêcheur: Jobs/Pecheur.md
+      Chasseur: Jobs/Chasseur.md
   - Collections: collections.md
   - Donjons: donjons.md
   - Quêtes: quetes.md
