@@ -6,7 +6,7 @@ theme:
   features:
     - navigation.indexes
     - navigation.instant
-    - navigation.tabs
+
     - navigation.expand
     - navigation.top
     - header.autohide
@@ -27,6 +27,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - toc:
       permalink: true
   - pymdownx.critic:
@@ -42,11 +45,18 @@ nav:
   - Home: index.md
   - 'Jobs':
       Mineur: Jobs/Mineur.md
-      Pecheur: Jobs/Pecheur.md
       Agriculteur: Jobs/Agriculteur.md
       Bûcheron: Jobs/Bucheron.md
       Pêcheur: Jobs/Pecheur.md
       Chasseur: Jobs/Chasseur.md
+  - 'Skills':
+      Mining: Skills/Mineur.md
+      Farming: Skills/Farming.md
+      Combat: Skills/Combat.md
+      Foraging: Skills/Foraging.md
+      Enchanting: Skills/Enchanting.md
+      Alchemy: Skills/Alchemy.md
+      Fishing: Skills/Fishing.md
   - Collections: collections.md
   - Donjons: donjons.md
   - Quêtes: quetes.md
