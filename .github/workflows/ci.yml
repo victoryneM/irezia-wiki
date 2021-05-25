@@ -1,5 +1,4 @@
 name: ci
-uses: sarisia/actions-status-discord@v1.8.5
 on:
   push:
     branches:
@@ -9,6 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: sarisia/actions-status-discord@v1.8.5
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
