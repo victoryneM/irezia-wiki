@@ -1,9 +1,14 @@
 site_name: Irezia - Wiki
+repo_name: Irezia-Wiki on GitHub
+edit_uri: edit/main/docs/
+repo_url: https://github.com/superhize/irezia-wiki
+copyright: '© 2020  Irezia'
 extra_css:
   - stylesheets/extra.css
   - stylesheets/hint.min.css
 theme:
   name: material
+  language: fr
   logo: img/logo.png
   favicon: img/logo.png
   features:
@@ -14,11 +19,17 @@ theme:
     - search.share
     - search.suggest
   palette:
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: red
+    - scheme: slate
+      primary: deep orange
+      accent: orange
       toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+    - scheme: default
+      primary: green
+      accent: light green
+      toggle:
+        icon: material/lightbulb
         name: Switch to light mode
 markdown_extensions:
   - admonition
@@ -49,6 +60,7 @@ nav:
   - 'Home':
     - 'Bienvenue': index.md
     - 'Aperçu':
+        - 'Quêtes': quete.md
         - 'Jobs': jobs.md
         - 'Skills': skills.md
         - 'Collections': collections.md
@@ -68,5 +80,7 @@ nav:
       Enchanting: Skills/Enchanting.md
       Alchemy: Skills/Alchemy.md
       Fishing: Skills/Fishing.md
+  - 'Quêtes':
+      Introduction: Quetes/Introduction.md
 
 

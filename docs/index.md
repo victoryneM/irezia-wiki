@@ -1,19 +1,25 @@
 <span class="centered">![irezia](https://irezia.fr/storage/img/banner.png){ loading=lazy width=487 height=288 }</span>
 
 
-Bienvenue sur le wiki d'Irezia, c'est ici que tout les aspects du serveur vous seront expliquer le plus clairement possible pour vous rendre la vie sur le serveur la plus facile possible.
+
+!!! note "jsp"
+    Parler des zones explorable, mais je sais pas ou les mettre
+    
+    y'a pleins de truc mais je sais pas quoi/ou mettre
+
+Bienvenue sur le wiki d'Irezia.
+C'est ici que tout les aspects du serveur vous seront expliqué le plus clairement possible pour vous rendre la vie sur le serveur la plus facile possible.
+
+Pour commencer, vous pouvez avoir un aperçu des différents aspects du serveur avec le menu disponnible à gauche.
+
+Vous pouvez également cliquer sur les boutons ci-dessous pour avoir plus d'informations.
 
 
-blabla jsais pas quoi mettre
-donc je met.
-des tabs.
-
-??? success "gg"
-    gg
 
 
 
-[Liste des jobs <span style="font-size:25px"></span>](Jobs/Mineur){: .md-button .md-button--primary }              
-[Liste des skills <span style="font-size:25px"></span>](Skills/Mineur){: .md-button .md-button--primary }              
-[Collections <span style="font-size:25px"></span>](#){: .md-button .md-button--primary }              
-[Donjons <span style="font-size:25px"></span>](#){: .md-button .md-button--primary }
+[<span style="font-size:25px">:minecraft-diamond-pickaxe:</span> Liste des jobs ](Jobs/Mineur){: .md-button .md-button--primary }              
+[<span style="font-size:25px">:minecraft-diamond-sword:</span> Liste des skills ](Skills/Mineur){: .md-button .md-button--primary }    
+[<span style="font-size:25px">:minecraft-enderpearl:</span> Quêtes ](Quetes/Introduction){: .md-button .md-button--primary }              
+[<span style="font-size:25px">:minecraft-grass:</span> Collections ](#){: .md-button .md-button--primary }              
+[<span style="font-size:25px">:minecraft-mossy-cobblestone:</span> Donjons ](#){: .md-button .md-button--primary }
