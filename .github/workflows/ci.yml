@@ -11,7 +11,7 @@ jobs:
       - uses: sarisia/actions-status-discord@v1.8.5
         if: always()
         with:
-          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          webhook: ${{ secrets.WEBHOOK_URL }}
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
