@@ -1,15 +1,18 @@
 site_name: Irezia - Wiki
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/hint.min.css
 theme:
   name: material
+  logo: img/logo.png
+  favicon: img/logo.png
   features:
-    - navigation.indexes
-    - navigation.instant
-
-    - navigation.expand
+    - navigation.tabs
     - navigation.top
-    - header.autohide
+    - navigation.sections
+    - navigation.expand
+    - search.share
+    - search.suggest
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -41,8 +44,16 @@ markdown_extensions:
 plugins:
   - git-revision-date-localized
   - search
+  - tooltips
 nav:
-  - Home: index.md
+  - 'Home':
+    - 'Bienvenue': index.md
+    - 'Aperçu':
+        - 'Jobs': jobs.md
+        - 'Skills': skills.md
+        - 'Collections': collections.md
+        - 'Donjons': donjons.md
+        - 'Events': events.md
   - 'Jobs':
       Mineur: Jobs/Mineur.md
       Agriculteur: Jobs/Agriculteur.md
@@ -57,8 +68,5 @@ nav:
       Enchanting: Skills/Enchanting.md
       Alchemy: Skills/Alchemy.md
       Fishing: Skills/Fishing.md
-  - Collections: collections.md
-  - Donjons: donjons.md
-  - Quêtes: quetes.md
-  - Villes: villes.md
-copyright: Copyright Irezia 2020 - 2021
+
+

@@ -1,3 +1,16 @@
+
+.md-grid {
+  max-width: 1500px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center }
+.centered p {
+  margin-right: 0;
+  margin-left: 0; }
+
 /* 
 Progress bar
 */
@@ -160,3 +173,51 @@ Task list
     content: "✔";
     color: #1EBB52;
   }
+
+  /*
+  Admonition
+  */
+  .md-typeset .admonition,
+.md-typeset details {
+  position: relative;
+  box-shadow:
+    0   0.2rem  0.5rem rgba(0,0,0,.05),
+    0 0.025rem 0.05rem rgba(0,0,0,.15)
+}
+
+
+/* Admonition and details on hover */
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  box-shadow:
+    0   0.4rem  1.0rem rgba(0,0,0,.10),
+    0 0.025rem 0.05rem rgba(0,0,0,.15)
+}
+
+/* Details in closed state */
+.md-typeset details:not([open]) {
+  transition-duration: 0s;
+  box-shadow: none;
+}
+
+/* Details title in closed state */
+.md-typeset details:not([open]) > summary {
+  border-radius: 1rem;
+}
+
+/* Admonition title */
+.md-typeset .admonition-title {
+  padding-right: 1rem;
+}
+
+/* Admonition and details title */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  position: relative;
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+  border-radius: 1rem;
+  border-left: none;
+}
