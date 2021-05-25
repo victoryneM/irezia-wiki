@@ -1,4 +1,5 @@
 name: ci
+uses: sarisia/actions-status-discord@v1.8.5
 on:
   push:
     branches:
