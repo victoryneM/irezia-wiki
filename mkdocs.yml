@@ -5,7 +5,6 @@ repo_url: https://github.com/superhize/irezia-wiki
 copyright: '© 2020  Irezia'
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/hint.min.css
 theme:
   name: material
   language: fr
@@ -52,6 +51,11 @@ markdown_extensions:
   - pymdownx.progressbar
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.magiclink
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.smartsymbols
 plugins:
   - git-revision-date-localized
   - search
@@ -66,6 +70,7 @@ nav:
         - 'Collections': collections.md
         - 'Donjons': donjons.md
         - 'Events': events.md
+    - 'Contribuer': contribuer.md
   - 'Jobs':
       Mineur: Jobs/Mineur.md
       Agriculteur: Jobs/Agriculteur.md
@@ -82,5 +87,4 @@ nav:
       Fishing: Skills/Fishing.md
   - 'Quêtes':
       Introduction: Quetes/Introduction.md
-
 
