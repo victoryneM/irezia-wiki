@@ -3,6 +3,7 @@
 
 ## Général
 Le métier de `mineur` consiste à chercher et miner des minerais, et autres types de pierres se trouvant dans des veines éparpillées à travers le monde. C'est une des professions principales.
+TEST tezfdsf
 
 ## **Avantages**
 Il vous permettra de gagner de l'argent en cassant certain type de blocs
