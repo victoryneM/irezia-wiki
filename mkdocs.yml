@@ -2,7 +2,7 @@ site_name: Irezia - Wiki
 repo_name: Irezia-Wiki on GitHub
 edit_uri: edit/main/docs/
 repo_url: https://github.com/superhize/irezia-wiki
-copyright: '© 2020  Irezia'
+copyright: '© 2021  Irezia'
 extra_css:
   - stylesheets/extra.css
 theme:
@@ -19,8 +19,8 @@ theme:
     - search.suggest
   palette:
     - scheme: slate
-      primary: deep orange
-      accent: orange
+      primary: deep purple
+      accent: purple
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
@@ -87,4 +87,5 @@ nav:
       Fishing: Skills/Fishing.md
   - 'Quêtes':
       Introduction: Quetes/Introduction.md
+  - 'Enchantements': enchant.md
 
