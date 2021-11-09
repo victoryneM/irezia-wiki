@@ -1,8 +1,6 @@
 <span class="centered">![irezia](https://irezia.fr/storage/img/banner.png){ loading=lazy width=487 height=288 }</span>
 
 
-alloffffffff
-
 !!! note "jsp"
     Parler des zones explorable, mais je sais pas ou les mettre
     
