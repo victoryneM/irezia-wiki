@@ -79,20 +79,15 @@ markdown_extensions:
         - name: math
           class: arithmatex
           format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format {kwds: {mode: generic}}
-  - pymdownx.magiclink:
-      repo_url_shortener: true
-      repo_url_shorthand: true
-      social_url_shorthand: true
-      social_url_shortener: true
-      user: facelessuser
-      repo: pymdown-extensions
-      normalize_issue_symbols: true
   - pymdownx.tilde:
   - pymdownx.caret:
   - pymdownx.smartsymbols:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.escapeall:
       hardbreak: True
       nbsp: True
@@ -112,16 +107,9 @@ markdown_extensions:
   - pymdownx.saneheaders:
 
 extra_css:
-  # - https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css
   - assets/pymdownx-extras/extra.css
 extra_javascript:
-  - https://unpkg.com/mermaid@8.13.3/dist/mermaid.min.js
-  # - https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - assets/pymdownx-extras/extra-loader.js
-  - scss/extra.css
-
 plugins:
   - search
   - git-revision-date-localized
