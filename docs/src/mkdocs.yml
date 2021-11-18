@@ -1,0 +1,127 @@
+site_name: Irezia - Wiki
+repo_name: Irezia-Wiki on GitHub
+edit_uri: edit/main/docs/
+repo_url: https://github.com/superhize/irezia-wiki
+copyright: '© 2021  Irezia'
+docs_dir: markdown
+theme:
+  name: material
+  custom_dir: ../theme/
+  icon:
+    logo: material/book-open-page-variant
+  palette:
+    scheme: dracula
+    primary: deep purple
+    accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.instant
+nav:
+  - 'Home':
+    - 'Bienvenue': index.md
+    - 'Aperçu':
+        - 'Quêtes': quete.md
+        - 'Jobs': jobs.md
+        - 'Skills': skills.md
+        - 'Collections': collections.md
+        - 'Donjons': donjons.md
+        - 'Events': events.md
+    - 'Contribuer': contribuer.md
+  - 'Jobs':
+      Mineur: Jobs/Mineur.md
+      Agriculteur: Jobs/Agriculteur.md
+      Bûcheron: Jobs/Bucheron.md
+      Pêcheur: Jobs/Pecheur.md
+      Chasseur: Jobs/Chasseur.md
+  - 'Skills':
+      Mining: Skills/Mineur.md
+      Farming: Skills/Farming.md
+      Combat: Skills/Combat.md
+      Foraging: Skills/Foraging.md
+      Enchanting: Skills/Enchanting.md
+      Alchemy: Skills/Alchemy.md
+      Fishing: Skills/Fishing.md
+  - 'Quêtes':
+      Introduction: Quetes/Introduction.md
+  - 'Enchantements': enchant.md
+  - "Optimiser Minecraft": optimiser.md
+markdown_extensions:
+  - markdown.extensions.toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify {kwds: {case: lower}}
+      permalink: ""
+  - markdown.extensions.admonition:
+  - markdown.extensions.smarty:
+      smart_quotes: false
+  - pymdownx.betterem:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - markdown.extensions.footnotes:
+  - markdown.extensions.md_in_html:
+  - pymdownx.highlight:
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+        - name: pycon3
+          lang: pycon
+          options:
+            python3: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite:
+      custom_inline:
+        - name: math
+          class: arithmatex
+          format: !!python/object/apply:pymdownx.arithmatex.arithmatex_inline_format {kwds: {mode: generic}}
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      social_url_shortener: true
+      user: facelessuser
+      repo: pymdown-extensions
+      normalize_issue_symbols: true
+  - pymdownx.tilde:
+  - pymdownx.caret:
+  - pymdownx.smartsymbols:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.escapeall:
+      hardbreak: True
+      nbsp: True
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.progressbar:
+  - pymdownx.arithmatex:
+      generic: true
+      block_tag: 'pre'
+  - pymdownx.mark:
+  - pymdownx.striphtml:
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.saneheaders:
+
+extra_css:
+  # - https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.css
+  - ../theme/assets/pymdownx-extras/extra.css
+extra_javascript:
+  - https://unpkg.com/mermaid@8.13.3/dist/mermaid.min.js
+  # - https://cdn.jsdelivr.net/npm/katex@0.13.18/dist/katex.min.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - ../theme/assets/pymdownx-extras/extra-loader.js
+  - scss/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized
